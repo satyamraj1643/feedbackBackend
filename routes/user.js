@@ -7,7 +7,7 @@ const bcrypt = require('bcryptjs');
 const adminIds = require("../adminIDs");
 
 
-// Login Route
+
 router.post('/login', async (req, res) => {
     try {
         const { email, password, role, adminId } = req.body;
